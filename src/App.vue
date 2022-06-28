@@ -11,9 +11,11 @@ export default {
 </script>
 
 <style lang="less">
-  html, body, #app {
-    height: 100%;
-    padding: 0;
-    margin: 0;
-  }
+html,
+body,
+#app {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
 </style>
