@@ -6,6 +6,41 @@
   "description": "vue_shop_icon",
   "glyphs": [
     {
+      "icon_id": "2076418",
+      "name": "修改",
+      "font_class": "xiugai",
+      "unicode": "e8cf",
+      "unicode_decimal": 59599
+    },
+    {
+      "icon_id": "25555513",
+      "name": "分配权限",
+      "font_class": "assignPermissions-o",
+      "unicode": "e72d",
+      "unicode_decimal": 59181
+    },
+    {
+      "icon_id": "1368556",
+      "name": "修改",
+      "font_class": "edit",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "11372693",
+      "name": "删除",
+      "font_class": "shanchu",
+      "unicode": "e8b6",
+      "unicode_decimal": 59574
+    },
+    {
+      "icon_id": "26283676",
+      "name": "分配角色",
+      "font_class": "fenpeijiaose",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
       "icon_id": "666885",
       "name": "设置",
       "font_class": "shezhi",

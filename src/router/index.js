@@ -3,6 +3,8 @@ import VueRouter from 'vue-router'
 import Login from '@/views/Login'
 import Home from '@/views/Home'
 import Users from '@/views/Users'
+import Roles from '@/views/Roles'
+import Rights from '@/views/Rights'
 
 Vue.use(VueRouter)
 
@@ -13,7 +15,11 @@ const routes = [
     path: '/home',
     component: Home,
     meta: { needAuth: true },
-    children: [{ path: '/users', component: Users }]
+    children: [
+      { path: '/users', component: Users, meta: { needAuth: true } },
+      { path: '/roles', component: Roles, meta: { needAuth: true } },
+      { path: '/rights', component: Rights, meta: { needAuth: true } }
+    ]
   }
 ]
 

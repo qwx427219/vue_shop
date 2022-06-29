@@ -46,8 +46,8 @@
     },
     "rules": {
       "vue/multi-word-component-names": "warn",
-	  "space-before-function-paren": "warn",
-	  "space-before-blocks": "warn"
+      "space-before-function-paren": "warn",
+      "space-before-blocks": "warn"
     }
   },
   "browserslist": [
